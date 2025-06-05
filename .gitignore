@@ -1,9 +1,9 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
+# *.py[cod]
+# *$py.class
 *.so
-.Python
+# .Python
 build/
 develop-eggs/
 dist/
@@ -45,7 +45,7 @@ model-last/
 *.model
 
 # Data files (sensitive medical data) - but allow demo_txt
-*.txt
+# *.txt
 *.ann
 final_data/
 llm_data/
