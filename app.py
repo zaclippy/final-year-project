@@ -178,7 +178,7 @@ def get_demo_data():
                     # Determine label based on filename
                     if any(keyword in filename.lower() for keyword in ['cancer', 'onco', 'tumor']):
                         label = 'Cancer Case'
-                    elif any(keyword in filename.lower() for keyword in ['bg', 'background', 'control']):
+                    elif any(keyword in filename.lower() for keyword in ['bg', 'background', 'control', 'radiologia']):
                         label = 'Non-Cancer'
                     else:
                         label = 'Unknown'
