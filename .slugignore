@@ -1,0 +1,8 @@
+*.ipynb
+*.md
+.git/
+.gitignore
+README.md
+*.log
+__pycache__/
+.pytest_cache/

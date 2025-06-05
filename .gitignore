@@ -34,23 +34,28 @@ venv.bak/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-# SpaCy models and training outputs
+# SpaCy models and training outputs (keep output/ for deployment)
 model-last/
 
-# Machine Learning models
-# *.joblib
+# Machine Learning models (allow for deployment)
+# *.joblib (commented out to allow deployment)
 *.pkl
 *.pickle
 *.h5
 *.model
 
-# Data files (sensitive medical data)
+# Data files (sensitive medical data) - but allow demo_txt
+*.txt
+*.ann
 final_data/
 llm_data/
 llm-dev/
 spacy-train*/
 spacy-bg*/
 train_data.csv
+# Allow demo folder
+!demo_txt/
+!demo_txt/*.txt
 
 # API keys and secrets
 .env
@@ -75,7 +80,7 @@ Thumbs.db
 logs/
 log/
 
-# Node.js (if using any Node tools)
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -113,46 +118,8 @@ tmp/
 ehthumbs.db
 Thumbs.db
 
-# Documentation builds
-docs/_build/
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
 # Large files
 *.zip
 *.tar.gz
 *.rar
 *.7z
-
-# Academic/Research specific
-*.bib.bak
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.fls
-*.synctex.gz
