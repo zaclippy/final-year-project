@@ -39,7 +39,6 @@ def classify_text():
             return jsonify({'error': 'No text provided'}), 400
         
         if classifier is None or vectorizer is None:
-            # Return demo prediction for showcase
             demo_prediction = {
                 'prediction': 'Cancer Case' if 'osteosarcoma' in clinical_text.lower() or 'carcinoma' in clinical_text.lower() else 'Non-Cancer',
                 'confidence': 0.85,
@@ -47,7 +46,6 @@ def classify_text():
             }
             return jsonify(demo_prediction)
         
-        # Vectorize the text
         text_vectorized = vectorizer.transform([clinical_text])
         
         # Make prediction
@@ -116,7 +114,6 @@ def get_demo_data():
                 file_path = os.path.join(demo_folder, filename)
                 with open(file_path, 'r', encoding='utf-8') as f:
                     text = f.read()
-                # Simple label inference from filename
                 if 'cancer' in filename.lower():
                     label = 'Cancer Case'
                 elif 'bg' in filename.lower() or 'background' in filename.lower():

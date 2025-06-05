@@ -35,26 +35,21 @@ venv.bak/
 *.ipynb_checkpoints
 
 # SpaCy models and training outputs
-output/
-*.spacy
-model-best/
 model-last/
 
 # Machine Learning models
-*.joblib
+# *.joblib
 *.pkl
 *.pickle
 *.h5
 *.model
 
 # Data files (sensitive medical data)
-*.txt
-*.ann
 final_data/
 llm_data/
+llm-dev/
 spacy-train*/
 spacy-bg*/
-demo_txt/
 train_data.csv
 
 # API keys and secrets

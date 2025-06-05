@@ -1,0 +1,25 @@
+T1 BACKGROUND 0 14 Varón de 60 años
+T2 SYMPTOM 48 63 dolor en fosa iliaca
+T3 ANATOMICAL 67 84 fosa iliaca derecha
+T4 SYMPTOM 86 92 náuseas
+T5 SYMPTOM 97 104 vómitos
+T6 FINDING 123 135 signos de peritonismo
+T7 FINDING 138 153 Blumberg positivo
+T8 FINDING 158 172 Rousing negativo
+T9 BACKGROUND 187 199 diverticulitis
+T10 PROCEDURE 225 237 laparoscopia
+T11 CONDITION 241 251 apendicitis
+T12 PROCEDURE 253 267 colecistectomizado
+T13 FINDING 292 306 imagen fija
+T14 FINDING 308 315 ovalada
+T15 FINDING 317 328 hiperecogénica
+T16 TEST 388 415 ecodoppler
+T17 FINDING 421 439 líquido libre
+T18 ANATOMICAL 443 451 las asas
+T19 PROCEDURE 460 466 exploración
+T20 TEST 477 479 TC
+T21 FINDING 510 520 imagen ovalada
+T22 ANATOMICAL 544 579 músculos abdominales y pared anterior del colón ascendente
+T23 FINDING 623 638 reborde hiperdenso
+T24 FINDING 666 681 imagen hiperdensa
+T25 CONDITION 688 716 Pared del colón adyacente levemente inflamada
